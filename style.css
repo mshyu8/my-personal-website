@@ -1,3 +1,32 @@
 body {
-    background :  grey;
+    background:  white;
 }
+
+#board {
+    background: grey;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+#board2 {
+    background: lightblue;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+#header1, #header2 {
+    visibility: visible;
+}
+
+#text1, #text2 {
+    visibility: hidden;
+    font-size: 25px;
+}
+
+#board > h2, #board2 > h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
