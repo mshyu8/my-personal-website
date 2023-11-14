@@ -16,7 +16,14 @@ body {
     margin: auto;
 }
 
-#header1, #header2 {
+#board3 {
+    background: lightpink;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+#header1, #header2, #header3{
     visibility: visible;
 }
 
@@ -25,8 +32,18 @@ body {
     font-size: 25px;
 }
 
-#board > h2, #board2 > h2 {
+#board > h2, #board2 > h2, #board3 > h2 {
     font-size: 50px;
     text-align: center;
+    height: 100px;
+}
+
+#board3 > img {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
 }
 
